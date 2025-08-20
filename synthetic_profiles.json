@@ -1,0 +1,571 @@
+[
+  {
+    "id": "CAND-001",
+    "name": "Aisha Khan",
+    "headline": "AI Engineer | Python, PyTorch, LangChain, RAG, Vector DB (FAISS, Qdrant), FastAPI, Docker",
+    "linkedin": {
+      "summary": "Aisha Khan is a AI Engineer with 3-6 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "AI Engineer",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "Python",
+        "PyTorch",
+        "LangChain",
+        "RAG",
+        "FAISS",
+        "Qdrant",
+        "FastAPI",
+        "Docker"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  },
+  {
+    "id": "CAND-002",
+    "name": "Rohit Sharma",
+    "headline": "Full-Stack Developer | JavaScript/TypeScript, React, Node.js, Postgres, Redis, Docker",
+    "linkedin": {
+      "summary": "Rohit Sharma is a Full-Stack Developer with 3-7 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "Full-Stack Developer",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Postgres",
+        "Redis",
+        "Docker"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  },
+  {
+    "id": "CAND-003",
+    "name": "Meera Iyer",
+    "headline": "Data Scientist | Python, Pandas, scikit-learn, XGBoost, Airflow, SQL",
+    "linkedin": {
+      "summary": "Meera Iyer is a Data Scientist with 3-8 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "Data Scientist",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "Python",
+        "Pandas",
+        "scikit-learn",
+        "XGBoost",
+        "Airflow",
+        "SQL"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  },
+  {
+    "id": "CAND-004",
+    "name": "Kabir Das",
+    "headline": "ML Engineer | Python, TensorFlow, Keras, MLflow, Kubernetes",
+    "linkedin": {
+      "summary": "Kabir Das is a ML Engineer with 3-6 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "ML Engineer",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "Python",
+        "TensorFlow",
+        "Keras",
+        "MLflow",
+        "Kubernetes"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  },
+  {
+    "id": "CAND-005",
+    "name": "Ananya Sen",
+    "headline": "MLOps Engineer | Go, gRPC, Kafka, Postgres, Terraform, AWS",
+    "linkedin": {
+      "summary": "Ananya Sen is a MLOps Engineer with 3-7 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "MLOps Engineer",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "Go",
+        "gRPC",
+        "Kafka",
+        "Postgres",
+        "Terraform",
+        "AWS"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  },
+  {
+    "id": "CAND-006",
+    "name": "Vikram Rao",
+    "headline": "Backend Engineer | Python, PyTorch, LangChain, RAG, Vector DB (FAISS, Qdrant), FastAPI, Docker",
+    "linkedin": {
+      "summary": "Vikram Rao is a Backend Engineer with 3-8 years of experience building production systems.",
+      "experience": [
+        {
+          "company": "MetaUp Labs",
+          "title": "Backend Engineer",
+          "start": "2023-06",
+          "end": null,
+          "highlights": [
+            "Led feature development improving latency by 30%.",
+            "Implemented CI/CD with tests and monitoring."
+          ]
+        },
+        {
+          "company": "OpenStackr",
+          "title": "Software Engineer",
+          "start": "2021-01",
+          "end": "2023-05",
+          "highlights": [
+            "Built internal tools and automated data pipelines.",
+            "Collaborated across teams; mentored 2 juniors."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "school": "IIIT Hyderabad",
+          "degree": "B.Tech CSE",
+          "grad_year": 2020
+        }
+      ],
+      "skills": [
+        "Python",
+        "PyTorch",
+        "LangChain",
+        "RAG",
+        "FAISS",
+        "Qdrant",
+        "FastAPI",
+        "Docker"
+      ]
+    },
+    "github": {
+      "repos": [
+        {
+          "name": "rag-healthcare",
+          "stars": 87,
+          "langs": [
+            "Python",
+            "Jupyter Notebook"
+          ],
+          "topics": [
+            "RAG",
+            "FAISS",
+            "LangChain",
+            "Healthcare"
+          ]
+        },
+        {
+          "name": "mlops-templates",
+          "stars": 42,
+          "langs": [
+            "Python",
+            "Dockerfile",
+            "YAML"
+          ],
+          "topics": [
+            "MLflow",
+            "CI/CD",
+            "Kubernetes"
+          ]
+        },
+        {
+          "name": "system-design-notes",
+          "stars": 15,
+          "langs": [
+            "Markdown"
+          ],
+          "topics": [
+            "Design",
+            "Scalability"
+          ]
+        }
+      ],
+      "languages": [
+        "Python",
+        "Shell",
+        "Dockerfile"
+      ],
+      "contrib_last12mo": 236
+    }
+  }
+
+]

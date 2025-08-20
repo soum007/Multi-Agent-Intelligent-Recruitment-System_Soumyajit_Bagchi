@@ -1,0 +1,145 @@
+[
+  {
+    "profile_id": "CAND-001",
+    "role": "AI Engineer",
+    "level": "Mid",
+    "seed": 12345,
+    "generated_at": "2025-08-20T22:57:00.693804+00:00",
+    "package": {
+      "format": "Mixed (Coding + System Design)",
+      "difficulty": "Medium",
+      "sections": [
+        "Coding Challenge",
+        "System Design",
+        "Follow-up Questions"
+      ],
+      "technical_challenges": [
+        {
+          "id": "CH-1",
+          "title": "Implement top-k document retrieval",
+          "prompt": "Given a set of document embeddings and a query embedding, implement a function that returns the top-K most similar documents by cosine similarity. Optimize for efficiency for large document sets and provide a short complexity analysis.",
+          "difficulty": "Medium",
+          "time_min": 45,
+          "expected_outputs": "Function top_k(query_vec, doc_matrix, k) returning indices and scores",
+          "sample_solution_outline": [
+            "Normalize vectors",
+            "Use matrix multiplication / dot-product to compute similarities",
+            "Use numpy.argpartition or heap to obtain top-K efficiently",
+            "Return sorted top-K indices with scores"
+          ],
+          "hints": [
+            "Avoid computing full sort if k is small relative to N",
+            "Consider batching if doc_matrix is large"
+          ]
+        },
+        {
+          "id": "CH-2",
+          "title": "Design a RAG pipeline for domain-specific FAQs",
+          "prompt": "Sketch a system-design solution for a Retrieval-Augmented Generation (RAG) pipeline to serve domain-specific FAQs. Include components for ingestion, embedding, retrieval, reranking, and serving. Describe tradeoffs and monitoring metrics.",
+          "difficulty": "Medium",
+          "time_min": 40,
+          "expected_outputs": "Architecture diagram description and list of component responsibilities",
+          "sample_solution_outline": [
+            "Ingestion -> Preprocessing -> Chunking -> Embedding (FAISS/Qdrant)",
+            "Retrieval -> Hybrid reranking (BM25 + embedding)",
+            "LLM prompt template, caching, & fallback",
+            "Monitoring: latency, top-k precision, cache hit rate"
+          ],
+          "hints": [
+            "Consider cold-start for new documents",
+            "Plan for incremental indexing"
+          ]
+        }
+      ],
+      "evaluation_framework": {
+        "criteria": [
+          {
+            "name": "Problem-solving approach",
+            "weight": 40
+          },
+          {
+            "name": "Code quality and correctness",
+            "weight": 30
+          },
+          {
+            "name": "Communication and explanation",
+            "weight": 30
+          }
+        ],
+        "rubric_examples": [
+          "Problem-solving: clear algorithm, edge-case handling, complexity analysis (0-10)",
+          "Code quality: readability, tests, performance (0-10)",
+          "Communication: explanation, tradeoffs, test cases (0-10)"
+        ]
+      },
+      "bias_mitigation_protocol": [
+        "Blind scoring: reviewers should not see candidate name or personal PII when scoring.",
+        "Use a standardized rubric with numeric scales for objective measurement.",
+        "Require at least two independent reviewers for pass/fail decisions.",
+        "Score code against functional tests before subjective evaluation."
+      ],
+      "estimated_duration_min": 120,
+      "recommended_environment": {
+        "languages": [
+          "Python"
+        ],
+        "tools": [
+          "numpy",
+          "faiss (optional)"
+        ],
+        "test_harness": "Provide unit tests and sample embeddings"
+      }
+    }
+  },
+  {
+    "profile_id": "CAND-001",
+    "role": "AI Engineer",
+    "level": "Junior",
+    "generated_at": "2025-08-20T23:00:44.945392+00:00",
+    "package": {
+      "role": "AI Engineer",
+      "level": "Junior",
+      "technical_challenges": [
+        "Implement a retrieval-augmented QA function with BM25 + vector fallback; include tests. (prefer approaches leveraging: )",
+        "Design a multi-tenant evaluation service to run model benchmarks at scale (cost, latency, safety)."
+      ],
+      "evaluation_rubric": [
+        {
+          "name": "Problem-solving approach",
+          "weight": 40,
+          "criteria": [
+            "Decomposition",
+            "Trade-offs",
+            "Testing strategy"
+          ]
+        },
+        {
+          "name": "Code quality",
+          "weight": 30,
+          "criteria": [
+            "Readability",
+            "Correctness",
+            "Efficiency"
+          ]
+        },
+        {
+          "name": "Communication",
+          "weight": 30,
+          "criteria": [
+            "Clarity",
+            "Structure",
+            "Reasoning"
+          ]
+        }
+      ],
+      "bias_mitigation_protocol": [
+        "Do not consider personal background beyond job-relevant evidence.",
+        "Use the rubric and weights consistently across all candidates for this role/level.",
+        "Ground feedback in observable actions (code, explanations, design diagrams). Avoid subjective adjectives.",
+        "If uncertain, record 'insufficient evidence' rather than guessing.",
+        "Double-score independently; resolve discrepancies via evidence-based discussion."
+      ]
+    },
+    "seed": null
+  }
+]

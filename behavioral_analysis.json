@@ -1,0 +1,31 @@
+[
+  {
+    "profile_id": "CAND-001",
+    "generated_at": "2025-08-20T22:57:00.693804+00:00",
+    "source": "data/transcripts.json",
+    "analysis": {
+      "themes": [
+        {
+          "name": "Collaboration",
+          "confidence": "High",
+          "evidence": "I run weekly tech huddles, pair program on tricky bugs, and keep notes public to reduce handoffs."
+        },
+        {
+          "name": "Data-driven problem solving",
+          "confidence": "High",
+          "evidence": "I added hybrid reranking and improved chunking; precision@10 rose from 0.42 to 0.71."
+        }
+      ],
+      "trait_summary": {
+        "Collaboration": "Actively promotes team collaboration and documentation; organizes regular syncs and pair programming.",
+        "Problem-solving": "Data-driven: uses experiments and metrics to validate changes."
+      },
+      "follow_up_questions": [
+        "Describe a time you had to change your technical approach based on metrics — what did you measure and how did you decide?",
+        "How do you ensure knowledge transfer when you mentor junior engineers?",
+        "When a proposed change improved a metric, how did you validate it wasn't due to data leakage or test bias?"
+      ],
+      "bias_check": "No demographic attributes were used or inferred. Analysis focused only on behavior-related language and evidence snippets."
+    }
+  }
+]
