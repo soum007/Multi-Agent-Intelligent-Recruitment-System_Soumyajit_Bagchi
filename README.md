@@ -1,123 +1,15 @@
-# Multi-Agent Intelligent Recruitment System (Free & Local)
+# Multi-Agent Intelligent Recruitment System 
 
-An AI-powered, **multi-agent recruitment assistant** that automates key parts of the hiring workflow — candidate profiling, personalized assessment design, behavioral & culture-fit analysis, and market intelligence.  
-Designed to run **entirely on local, free tools** (e.g., Ollama or small open Hugging Face models), with a **Streamlit UI** and a **CLI**. Synthetic data is included and reproducible.
+During this project, I developed a Multi-Agent Intelligent Recruitment System that simulates an AI-powered hiring assistant. The system was built entirely with local, free tools and integrates four agents — candidate profiling, technical assessment design, behavioral analysis, and market intelligence.
 
-## ✨ Core Agents
+I used Python with Streamlit for the UI and also built a CLI for batch runs. The agents work in a modular way, each generating structured outputs like JSON and Markdown reports. To make the project reproducible, I created synthetic candidate profiles, interview transcripts, and market data that the agents can analyze.
 
-1. **Intelligent Candidate Profiler Agent**
-   - Parses synthetic LinkedIn/GitHub-style profiles.
-   - Extracts skills & experiences with **confidence scores**.
-   - Produces a structured **Talent Intelligence Report** (JSON & Markdown).
+The project follows a multi-agent architecture, where each agent is responsible for a distinct stage in the recruitment workflow. The Candidate Profiler ingests candidate information from synthetic_profiles.json and creates structured profiles. The Assessment Designer generates role-specific technical evaluations and outputs them as assessments.json. The Behavioral Analyzer reviews candidate transcripts from transcripts.json and produces soft-skill and behavioral trait reports in behavioral_analysis.json. Finally, the Market Intelligence Agent processes market_compensation.csv to provide salary benchmarks and competitive insights. All of these agents are accessed through Streamlit, which acts as the UI layer for interaction while the modular agents serve as the backend logic.
 
-2. **Adaptive Technical Assessment Designer Agent**
-   - Generates **personalized technical assessments** based on candidate profile + role.
-   - Includes **Problems**, **Scoring Rubric**, and a **Bias Mitigation Protocol**.
+    JSON files were chosen over a database for simplicity and portability;
+    Candidate evaluations are strictly text- and performance-based
 
-3. **Behavioral & Cultural Fit Analyzer Agent**
-   - Analyzes qualitative interview transcripts to extract themes: collaboration, communication, problem-solving.
-   - Provides **high-level insights** with **explicit demographic-bias avoidance**.
 
-4. **Market Intelligence & Sourcing Optimizer Agent**
-   - Analyzes static market data to compute **compensation benchmarks** and **talent trends**.
-   - Recommends **optimal sourcing channels**.
+#DEMO VIDEO DRIVE LINK: 
 
-## 🧱 Architecture
-
-- Lightweight, modular **agents** under `agents/` (stateless, composable).
-- Optional LLM use via **Ollama** (recommended: `llama3.1:8b`) or small free HF models (e.g., `google/flan-t5-base`).  
-  The system **works without an LLM** using rule-based heuristics + templates.
-- **Streamlit app** for interactive demo and **CLI** for batch generation to `outputs/`.
-
-```
-multi_agent_recruitment_system/
-├─ agents/
-│  ├─ profiler.py
-│  ├─ assessment_designer.py
-│  ├─ behavioral.py
-│  └─ market_intel.py
-├─ data/
-│  ├─ synthetic_profiles.json
-│  ├─ market_compensation.csv
-│  └─ transcripts.json
-├─ app.py
-├─ cli.py
-├─ README.md
-├─ requirements.txt
-└─ outputs/
-```
-
-## 🛠️ Local Setup (Free-Only)
-
-1. **Python**
-   ```bash
-   python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
-   pip install -r requirements.txt
-   python -m nltk.downloader punkt stopwords
-   ```
-
-2. **(Optional) Ollama for better LLM generation**
-   - Install from https://ollama.com
-   - Pull a free local model:
-     ```bash
-     ollama pull llama3.1:8b
-     ```
-   - The app auto-detects Ollama; if unavailable, it uses heuristic templates / small HF models where feasible.
-
-3. **Run Streamlit UI**
-   ```bash
-   streamlit run app.py
-   ```
-
-4. **Run Headless (CLI)**
-   ```bash
-   python cli.py --candidate-id CAND-001 --role "AI Engineer"
-   ```
-
-Outputs are written to `outputs/` as JSON and Markdown.
-
-## 📦 Data Simulation Methodology
-
-- **Candidate Profiles**: Generated via seeded templates blending GitHub/LinkedIn-like fields (repos, languages, roles, durations, education). Frequencies, recency, and cross-source agreement produce **confidence scores**.
-- **Transcripts**: Synthetic panel-style Q&A emphasizing collaboration, communication, ownership, conflict resolution. No demographic attributes are stored or inferred.
-- **Market Data**: Seeded distribution per role, level, and region; bins for p25/median/p75, growth trend %, and inferred sourcing channels.
-
-Reproducible with `--seed` flags used in the data generator functions inside agents.
-
-## 🔍 Bias Mitigation & Compliance
-
-- Blind to demographic/family/affinity attributes — they are neither input nor inferred.
-- Standardized rubrics with **weighted criteria**; consistent across candidates for the same role/level.
-- Language audits to avoid value-laden adjectives; focuses on **observable behaviors and outputs**.
-- Transparent scoring + rater guidelines included in each Assessment Package.
-- All models used are local/free; no PII leaves your machine.
-
-## 🧪 Tests
-
-Minimal smoke tests under `tests/` illustrate agent contracts and validate JSON schema shapes.
-
-## 📹 Demo Video Script (10–12 mins)
-
-See `demo_script.md` for a ready-to-record outline.
-
-## 📧 Submission
-
-- Push this repo to GitHub (public).
-- Email the link to **hr@metaupspace.com** with subject:  
-  `AI Intern Hiring Task: Multi-Agent Intelligent Recruitment System`.
-- Include a brief feature summary (template below).
-
-### Email Template
-
-Subject: AI Intern Hiring Task: Multi-Agent Intelligent Recruitment System
-
-Body (short):
-- Built a local, free, multi-agent recruiting assistant with Streamlit + CLI.
-- Features: Talent Intelligence Reports, personalized assessments + bias protocol, behavioral insights, market benchmarks & sourcing recs.
-- Stack: Python, heuristics + optional Ollama, scikit-learn / NLP, reproducible synthetic data.
-- Repo: <your GitHub URL>
-- Demo video: <your video URL>
-
----
-
-**Author:** Your Name • Date: 2025-08-20
+## LIVE APPLICATION LINK:
