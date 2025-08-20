@@ -1,0 +1,10 @@
+{
+  "CAND-001": [
+    "Q: Tell us about a challenging project.\nA: I led a RAG pipeline where retrieval precision was initially low. I added hybrid reranking and improved chunking; precision@10 rose from 0.42 to 0.71.",
+    "Q: How do you handle disagreements?\nA: I ask clarifying questions, propose a small experiment, and let data guide the decision. I document outcomes for transparency.",
+    "Q: Describe collaboration.\nA: I run weekly tech huddles, pair program on tricky bugs, and keep notes public to reduce handoffs."
+  ],
+  "CAND-002": [
+    "I improved CI/CD, cut build times by half, and introduced ADRs for architectural decisions. In conflicts, I prefer async proposals with pros/cons and getting consensus."
+  ]
+}
