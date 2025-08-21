@@ -12,4 +12,12 @@ The project follows a multi-agent architecture, where each agent is responsible 
 
 #DEMO VIDEO DRIVE LINK: 
 
-## LIVE APPLICATION LINK: http://192.168.31.178:8501
+## LIVE APPLICATION LINK: http://192.168.31.178:8501 [Strea]
+
+#Few screenshot of the Streamlit Live Project
+<img width="1917" height="966" alt="image" src="https://github.com/user-attachments/assets/25821ce5-3650-4860-bf1e-00561021e798" />
+<img width="1906" height="895" alt="image" src="https://github.com/user-attachments/assets/078132ba-583e-49f9-be1a-f8c88957f494" />
+<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/bd79ecbd-f1dd-4cb1-a919-0855f1c89b90" />
+
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/8749caaf-4fd8-4f13-b0f9-09d442fa0ec1" />
