@@ -12,4 +12,4 @@ The project follows a multi-agent architecture, where each agent is responsible 
 
 #DEMO VIDEO DRIVE LINK: 
 
-## LIVE APPLICATION LINK:
+## LIVE APPLICATION LINK: http://192.168.31.178:8501
